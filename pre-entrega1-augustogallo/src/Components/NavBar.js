@@ -38,3 +38,6 @@ const NavBar = () => {
     );
 }
 export default NavBar;
+/* otra forma
+<CartWidget item = {<span>3</span>}/>
+*/
