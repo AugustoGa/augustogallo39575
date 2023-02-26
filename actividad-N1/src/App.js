@@ -11,7 +11,7 @@ function App() { //<ItemListContainer greeting={"holanda"}/>  asignandole el val
     <>
     <NavBar/>
     <ItemListContainer greeting={"holanda"}/> 
-    <ItemCount stock={6} inicial={1} onAdd={onAdd} />
+    <ItemCount stock={6} inicial={1} onAdd={onAdd}/> 
     </>
   );
 }
