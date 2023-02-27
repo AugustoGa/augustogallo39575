@@ -10,7 +10,7 @@ function App() { //<ItemListContainer greeting={"holanda"}/>  asignandole el val
   return (
     <>
     <NavBar/>
-    <ItemListContainer greeting={"holanda"}/> 
+    <ItemListContainer/> 
     <ItemCount stock={6} inicial={1} onAdd={onAdd}/> 
     </>
   );

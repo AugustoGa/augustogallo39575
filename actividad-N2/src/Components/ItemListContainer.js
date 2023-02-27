@@ -1,17 +1,19 @@
+
 import { useEffect,useState } from "react"
+import ItemList from "./ItemList";
+
 
 export default function ItemListContainer ({greeting}){ //desestructurar una propiedad
-    const[producto , setProducto] = useState([])
+    const[productos , setProductos] = useState([])
     useEffect(() => {
-        fetch('productos.json')//formato en el que elijo mostar
-        .then(res=> res.JSON.stringify())
-        .then(res=> console.log(res))
-        .then(res =>setProducto(res.results))
-        .catch(error=> console.log("error",error))
+        fetch('./productos.json')//formato en el que elijo mostar
+        .then(res=> res.json())
+        .then(datos => setProductos(datos))
+        .catch(error => console.log("Error",error))
         });
-        console.log(producto);
     return(
         <div>
+            <ItemList productos = {productos} />
             <h1>{greeting}</h1>
                 </div>
     )

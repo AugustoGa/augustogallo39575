@@ -1,8 +1,11 @@
 import React from 'react'
+import Item from './Item'
 
-function ItemList() {
+function ItemList({productos}) {
     return (
-        <div>ItemList</div>
+        <div>
+            {productos?.map(producto => <Item key={producto.id} producto={producto}/> )}
+        </div>
     ) 
 }
 
