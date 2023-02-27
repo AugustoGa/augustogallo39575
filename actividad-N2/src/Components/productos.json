@@ -1,0 +1,16 @@
+[
+    {    
+        "id ": 1,
+        "title": "gaseosa",
+        "description": "bebida",
+        "price": 500 ,
+        "pictureUrl": null
+    },
+    {    
+        "id ": 2,
+        "title": "leche",
+        "description": "lacteo",
+        "price": 300 ,
+        "pictureUrl": null
+    }
+]

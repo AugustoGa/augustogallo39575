@@ -4,8 +4,8 @@ import ItemListContainer from './Components/ItemListContainer';
 import ItemCount from './Components/ItemCount';
 
 function App() { //<ItemListContainer greeting={"holanda"}/>  asignandole el valor a una propç
-  const onAdd = () =>{
-    
+  const onAdd = (cantidad) =>{
+    console.log(cantidad)
   }
   return (
     <>

@@ -22,7 +22,8 @@ const reset = () => {
                 <div className="botones">
                 <button onClick={sumar} type="button" class="btn btn-success">+</button>
                 <button onClick={restar} type="button" class="btn btn-danger">-</button>
-                <button onClick={()=>{onAdd(count);reset()}} type="button" class="btn btn-secondary">Reestablecer</button>
+                <button onClick={reset} type="button" class="btn btn-danger">Reestablecer</button>
+                <button onClick={()=>{onAdd(count);reset()}} type="button" class="btn btn-secondary">Agregar</button>
             </div>
         </div>
     );
