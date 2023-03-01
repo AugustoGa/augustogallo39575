@@ -1,16 +1,27 @@
 [
     {    
         "id ": 1,
-        "titulo": "gaseosa",
-        "description": "bebida",
+        "titulo": "Paradojas",
+        "genero": "Rock Nacional",
+        "description": "Las Pastillas Del Abuelo",
         "price": 500 ,
-        "pictureUrl": null
+        "Url": "Paradojas-LPDA.gif"
     },
     {    
         "id ": 2,
-        "titulo": "leche",
-        "description": "lacteo",
+        "titulo": "Crisis",
+        "genero": "Rock Nacional",
+        "description": "Las Pastillas Del Abuelo",
         "price": 300 ,
-        "pictureUrl": null
+        "Url": "Crisis-LPDA.gif"
+    },
+    {    
+        "id ": 3,
+        "titulo": "Desafios",
+        "genero": "Rock Nacional",
+        "description": "Las Pastillas Del Abuelo",
+        "price": 300 ,
+        "Url": "The Sick, the Dying... and the Dead! - Megadeah.gif"
     }
+
 ]

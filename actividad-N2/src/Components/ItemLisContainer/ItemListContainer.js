@@ -1,6 +1,8 @@
 
 import { useEffect,useState } from "react"
-import ItemList from "./ItemList";
+import ItemList from "../ItemList/ItemList";
+import NavBar from "../NavBar/NavBar";
+
 
 
 export default function ItemListContainer ({greeting}){ //desestructurar una propiedad
@@ -12,10 +14,10 @@ export default function ItemListContainer ({greeting}){ //desestructurar una pro
         .catch(error => console.log("Error",error))
         });
     return(
-        <div>
+        <div className="ConteinerP">
             <ItemList productos = {productos} />
             <h1>{greeting}</h1>
-                </div>
+        </div>
     )
 };
 // otra forma 

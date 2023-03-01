@@ -1,0 +1,31 @@
+.mydiv {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background: rgba(255,128,0,1) 100%;
+}
+.ConteinerP{
+    display: block;
+    margin: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: auto;
+}
+.nose{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}

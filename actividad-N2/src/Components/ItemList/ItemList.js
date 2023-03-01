@@ -1,9 +1,10 @@
 import React from 'react'
-import Item from './Item'
+import Item from '../Item/Item'
+import '../Styles/Styles.css';
 
 function ItemList({productos}) {
     return (
-        <div>
+        <div className='nose'>
             {productos?.map(producto => <Item key={producto.id} producto={producto}/> )}
         </div>
     ) 
