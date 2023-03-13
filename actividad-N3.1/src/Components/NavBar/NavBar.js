@@ -2,6 +2,7 @@ import React from "react";
 import CartWidget from "./CartWidget/CartWidget";
 import "../Styles/Styles.css"
 import Logo from "./Logo";
+import { Link } from "react-router-dom";
 
 
 const NavBar = () => {
@@ -16,21 +17,19 @@ const NavBar = () => {
                         </button>
                         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                             <ul className="navbar-nav">
-                                <li class="nav-item">
-                                    <a className="nav-link" href="./index.html">Inicio</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" href="./Paginas/Gases.html">Gases</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" href="./Paginas/Productos.html">Productos</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" href="./Paginas/Servicios.html">Servicios</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" href="./Paginas/Contacto.html">Contacto</a>
-                                </li>
+                            
+                        <Link to="/">
+                            <button className="nav-link">Home</button>
+                        </Link>
+                        <Link to="/category/ternera">
+                            <button className="nav-link">Ternera</button>
+                        </Link>
+                        <Link to="/category/cerdo">
+                            <button className="nav-link">Cerdo</button>
+                        </Link>
+                        <Link to="/category/ave">
+                            <button className="nav-link">Ave</button>
+                        </Link>
                                 <button>
                                     <CartWidget/>
                                 </button>

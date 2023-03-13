@@ -1,11 +1,11 @@
-[
+const products = [
     {    
         "id ": 1,
         "titulo": "Paradojas",
         "genero": "Rock Nacional",
         "description": "Las Pastillas Del Abuelo",
         "price": 500 ,
-        "Url": "/img/Paradojas-LPDA.gif"
+        "imagen": "/img/Paradojas-LPDA.gif"
     },
     {    
         "id ": 2,
@@ -13,14 +13,17 @@
         "genero": "Rock Nacional",
         "description": "Las Pastillas Del Abuelo",
         "price": 300 ,
-        "Url": "/img/Crisis-LPDA.gif"
+        "imagen": "/img/Crisis-LPDA.gif"
     },
     {    
         "id ": 3,
         "titulo": "Desafios",
-        "genero": "Rock Nacional",
+        "genero": "Rock Internacional",
         "description": "Las Pastillas Del Abuelo",
         "price": 300 ,
-        "Url": "/img/The Sick, the Dying... and the Dead! - Megadeah.gif"
+        "imagen": "/img/The Sick, the Dying... and the Dead! - Megadeah.gif"
     }
+
 ]
+
+export default products;

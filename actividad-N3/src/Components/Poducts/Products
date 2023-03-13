@@ -1,4 +1,5 @@
-[
+
+const products = [
     {    
         "id ": 1,
         "titulo": "Paradojas",
@@ -18,9 +19,12 @@
     {    
         "id ": 3,
         "titulo": "Desafios",
-        "genero": "Rock Nacional",
+        "genero": "Rock Internacional",
         "description": "Las Pastillas Del Abuelo",
         "price": 300 ,
         "Url": "/img/The Sick, the Dying... and the Dead! - Megadeah.gif"
     }
+    
 ]
+
+export default products;

@@ -12,7 +12,7 @@ export default function ItemListContainer ({greeting}){ //desestructurar una pro
         .then(res=> res.json())
         .then(datos => setProductos(datos))
         .catch(error => console.log("Error",error))
-        });
+        },[]);
     return(
         <div className="myDivItem">
             <ItemList productos = {productos} />

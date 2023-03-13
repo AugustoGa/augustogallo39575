@@ -1,20 +1,28 @@
-
-import NavBar from './Components/NavBar/NavBar';
-import ItemCount from './Components/ItemCount/ItemCount';
-import ItemListContainer from './Components/ItemLisContainer/ItemListContainer';
 import { useState } from 'react';
+import NavBar from './Components/NavBar/NavBar';
+import ItemListContainer from './Components/ItemLisContainer/ItemListContainer';
+import ItemCount from './Components/ItemLisContainer/ItemCount/ItemCount';
 
-function App() { //<ItemListContainer greeting={"holanda"}/>  asignandole el valor a una propç
+
+
+
+
+
+function App() { 
   const [count , setCount] = useState() //guarda los datos que llegan del contador en un estado
   const onAdd = (cantidad) =>{
     setCount(cantidad)
   }
-  return (
+  return ( 
     <>
-    {count}
-    <NavBar/>
-    <ItemListContainer/> 
-    <ItemCount stock={6} inicial={1} onAdd={onAdd}/> 
+    
+    <NavBar /> 
+    
+      {count}
+        <ItemListContainer greeting={"Bienvenidos"} />
+        <ItemCount stock={6} inicial={1} onAdd={onAdd} /> 
+      
+    
     </>
   );
 }

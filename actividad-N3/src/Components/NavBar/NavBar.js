@@ -17,19 +17,19 @@ const NavBar = () => {
                         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                             <ul className="navbar-nav">
                                 <li class="nav-item">
-                                    <a className="nav-link" href="./index.html">Inicio</a>
+                                    <a className="nav-link" href=".">Inicio</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="./Paginas/Gases.html">Gases</a>
+                                    <a className="nav-link" href="">Artistas</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="./Paginas/Productos.html">Productos</a>
+                                    <a className="nav-link" href="">Productos</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="./Paginas/Servicios.html">Servicios</a>
+                                    <a className="nav-link" href="">Servicios</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="./Paginas/Contacto.html">Contacto</a>
+                                    <a className="nav-link" href="">Contacto</a>
                                 </li>
                                 <button>
                                     <CartWidget/>

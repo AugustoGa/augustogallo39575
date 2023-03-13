@@ -18,9 +18,10 @@
     {    
         "id ": 3,
         "titulo": "Desafios",
-        "genero": "Rock Nacional",
+        "genero": "Rock Internacional",
         "description": "Las Pastillas Del Abuelo",
         "price": 300 ,
         "Url": "/img/The Sick, the Dying... and the Dead! - Megadeah.gif"
     }
+
 ]
